@@ -5,7 +5,6 @@ import java.util.Random;
 /**
  * Represents dice which has six faces / six possible outcomes.
  * The range starts at 1 and ends at 6 (inclusive).
-
  */
 public class SixNumberedDice implements Dice{
 

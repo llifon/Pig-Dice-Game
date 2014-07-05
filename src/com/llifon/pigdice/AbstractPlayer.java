@@ -3,7 +3,7 @@ package com.llifon.pigdice;
 import java.util.UUID;
 
 /**
- * Represents..
+ * An abstract representation of a Player in the game of Pig.
  */
 public abstract class AbstractPlayer implements Player {
 
