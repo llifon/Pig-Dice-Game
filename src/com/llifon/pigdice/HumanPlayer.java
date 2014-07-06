@@ -2,7 +2,6 @@ package com.llifon.pigdice;
 
 /**
  * Represents a human player in the game of pig.
-
  */
 public class HumanPlayer extends AbstractPlayer{
 

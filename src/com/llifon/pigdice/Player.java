@@ -4,7 +4,6 @@ import java.util.UUID;
 
 /**
  * Represents the behaviour of a player in the game "Pig Dice".
-
  */
 public interface Player {
 

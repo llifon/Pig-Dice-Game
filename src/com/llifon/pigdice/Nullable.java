@@ -3,7 +3,6 @@ package com.llifon.pigdice;
 /**
  * A null-able wrapper which allows the presence of values to be checked
  * before consumption.
-
  */
 public class Nullable<T> {
 

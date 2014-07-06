@@ -3,7 +3,6 @@ package com.llifon.pigdice;
 /**
  * The {@link PlayerScore} class is used to keep track of the state of a player's score.
  * The score can be increased or decreased by a specified amount, and the current value is always available.
-
  */
 public class PlayerScore {
 
@@ -43,7 +42,7 @@ public class PlayerScore {
 
     /**
      * Retrieves the current value of this score.
-     * @return
+     * @return The current score of the player.
      */
     public int getCurrentScore()
     {

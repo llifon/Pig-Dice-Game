@@ -1,8 +1,9 @@
 package com.llifon.pigdice;
 
 /**
- * Created with IntelliJ IDEA.
-
+ * Enumerations of possible user input selections. The key words
+ * which translate into these options are left to the implementation;
+ * but these are the values used to control the logic flow.
  */
 public enum InputTextOptions {
 
@@ -33,5 +34,5 @@ public enum InputTextOptions {
      * The option which indicates the user would like to end their turn now, but would like to
      * save their accumulated score.
      */
-    KEEP_SCORE;
+    KEEP_SCORE
 }

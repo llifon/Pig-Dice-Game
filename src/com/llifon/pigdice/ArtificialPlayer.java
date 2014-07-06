@@ -1,8 +1,7 @@
 package com.llifon.pigdice;
 
 /**
- * Represents an AI player in the game of pig.
-
+ * Represents an AI player in the game of pig (TO-DO).
  */
 public class ArtificialPlayer extends AbstractPlayer {
 

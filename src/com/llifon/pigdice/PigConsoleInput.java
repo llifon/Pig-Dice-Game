@@ -5,7 +5,6 @@ import java.util.Scanner;
 /**
  * Represents a user input prompter for a console based implementation
  * of the game.
-
  */
 public class PigConsoleInput implements PigInput{
 

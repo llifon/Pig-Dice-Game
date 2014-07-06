@@ -2,7 +2,6 @@ package com.llifon.pigdice;
 
 /**
  * Represents a game die which can be rolled for a random outcome.
-
  */
 public interface Dice {
 

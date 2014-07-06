@@ -57,10 +57,4 @@ public abstract class AbstractPlayer implements Player {
     public PlayerScore getCurrentScore() {
         return this.playerScore;
     }
-
-    @Override
-    public String toString()
-    {
-        return "";
-    }
 }

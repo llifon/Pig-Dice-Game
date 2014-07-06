@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * Represents the Pig Game manager.
- * User: Llifon Osian Jones.
  */
 public class PigGame {
 
@@ -70,7 +69,7 @@ public class PigGame {
     {
         while (!this.hasAnyPlayerWon())
         {
-            this.players.forEach(player -> runPlayerLoop(player));
+            this.players.forEach(this::runPlayerLoop);
         }
 
         announceWinner();
@@ -79,7 +78,7 @@ public class PigGame {
     /**
      * Runs the per-individual-player game logic. This
      * method runs for the duration of a player's entire turn.
-     * @param player
+     * @param player The player who is currently at play.
      */
     private void runPlayerLoop(Player player)
     {
@@ -179,7 +178,7 @@ public class PigGame {
      */
     private boolean hasAnyPlayerWon()
     {
-        return this.players.parallelStream().anyMatch(p -> this.hasPlayerWon(p));
+        return this.players.parallelStream().anyMatch(this::hasPlayerWon);
     }
 
     /**

@@ -2,7 +2,6 @@ package com.llifon.pigdice;
 
 /**
  * Represents a consumer of user inputs.
-
  */
 public interface PigInput {
 

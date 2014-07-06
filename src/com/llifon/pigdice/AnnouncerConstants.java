@@ -1,7 +1,7 @@
 package com.llifon.pigdice;
 
 /**
-
+ * Messages to be used by the game announcer.
  */
 class AnnouncerConstants
 {
